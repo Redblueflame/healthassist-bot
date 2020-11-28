@@ -7,7 +7,8 @@ on:
     types: [opened, synchronize, reopened]
 
 env:
-  DOMAIN: 'carbon.rasa-bots.com'
+  DOMAIN: 'rasa.healthassist.redbluefla.me'
+  ACTIONS_ALLOW_UNSECURE_COMMANDS: true
 
 jobs:
   build-model:
