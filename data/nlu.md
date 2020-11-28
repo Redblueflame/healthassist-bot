@@ -2640,7 +2640,16 @@
 
 ## intent:faq/deny-offsets-work
 - Carbon offsets will not affect climate !
-- So if I give you money its ok to destroy the climate, is that right
+
+## intent:help_procrastination
+- I procrastinate a lot these days
+- How to stop procrastinating?
+- I procrastinated a whole day instead of preparing to my exams
+- why do I procrastinate even though I understand I need to do stuff?
+- Is procrastination a bad sign for my mental health?
+
+## intent:help_loneliness
+- I feel soo lonely today
 
 ## synonym:1
 - one
