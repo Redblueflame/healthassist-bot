@@ -3,6 +3,7 @@ pipeline:
 - name: ConveRTTokenizer
   model_url: https://github.com/connorbrinton/polyai-models/releases/download/v1.0/model.tar.gz
 - name: ConveRTFeaturizer
+  model_url: https://github.com/connorbrinton/polyai-models/releases/download/v1.0/model.tar.gz
 - name: CountVectorsFeaturizer
 - name: CountVectorsFeaturizer
   analyzer: char_wb
@@ -21,11 +22,6 @@ pipeline:
 - name: EntitySynonymMapper
 policies:
 - name: MemoizationPolicy
-- name: EmbeddingPolicy
+- name: TEDPolicy
   max_history: 5
-  batch_strategy: balanced
-  epochs: 50
-  random_seed: 666
-  evaluate_on_num_examples: 0
-- name: MappingPolicy
-- name: FormPolicy
+  epochs: 10

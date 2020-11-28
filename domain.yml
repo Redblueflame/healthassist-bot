@@ -10,52 +10,45 @@ actions:
   - depression_techs
 
 nlu:
- - intent: help_depression
-  examples: |
-    - could you help me with my depression?
-    - I feel depressed all the time
-    - how to handle depression?
-    - how to fight depression?
-    - I am depressed as hell
+- intent: help_depression
+  examples:
+  - could you help me with my depression?
+  - I feel depressed all the time
+  - how to handle depression?
+  - how to fight depression?
+  - I am depressed as hell
 
 - intent: help_anxiety
-  examples: |
-    - could you help me with my anxiety?
-    - I feel very anxious
-    - Do you know how to handle anxiety?
-    - when anxiety hits, I can't do anything
+  examples:
+  - could you help me with my anxiety?
+  - I feel very anxious
+  - Do you know how to handle anxiety?
+  - when anxiety hits, I can't do anything
 
 
 - intent: help_procrastination
-  examples: |
-    - I procrastinate a lot
-    - How to stop procrastinating?
-    - is procrastination a bad sign for my mental health?
-    - why do I procrastinate even though I know I should be preparing for my exam?
-    - I procrastinated the whole day
+  examples:
+  - I procrastinate a lot
+  - How to stop procrastinating?
+  - is procrastination a bad sign for my mental health?
+  - why do I procrastinate even though I know I should be preparing for my exam?
+  - I procrastinated the whole day
 
 - intent: help_loneliness
-  examples: |
-    - I feel lonely
-    - I'm all alone
-    - I have no friends
-    - Nobody likes me
-    - I need someone to talk to
-    - No one talks to me
-    - I'm a loner
+  examples:
+  - I feel lonely
+  - I'm all alone
+  - I have no friends
+  - Nobody likes me
+  - I need someone to talk to
+  - No one talks to me
+  - I'm a loner
 
 - intent: tech_question
-  examples: |
-    - tell me about techniques
-    - what techniques?
+  examples:
+  - tell me about techniques
+  - what techniques?
 
-entities: {}
-
-forms:
-- airtravel_form
-intents:
-- restart:
-    triggers: action_restart
 
 slots:
   correct_city:
