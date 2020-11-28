@@ -7,7 +7,8 @@
     - I am glad to hear that you want to know about the techniques. The list against procrastination contains following: "Deciding for future self", "Diversification of reward sources"
 
 ## Procrastination help
-* utter_procrastinationHelp Procrastination seems like laziness and we blame ourselves for being lazy but actually thta's a tottaly different thing. Ask me about techniques against procrastination and I will share some :)
+* utter_procrastinationHelp
+    - Procrastination seems like laziness and we blame ourselves for being lazy but actually thta's a tottaly different thing. Ask me about techniques against procrastination and I will share some :)
 
 ## Problem list
 * utter_problemslist
