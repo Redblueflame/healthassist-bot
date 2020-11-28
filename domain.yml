@@ -1,59 +1,19 @@
-actions:
-  - tech_info
-  - procrastination_techs
-  - procrastination_help
-  - problems_list
-  - loneliness_techs
-  - loneliness_help
+version: "2.0"
+intents:
+  - help_depression
+  - help_anxiety
+  - help_procrastination
+  - help_loneliness
+  - tech_question
   - greet
-  - good_mood
-  - depression_techs
-
-nlu:
-- intent: help_depression
-  examples:
-  - could you help me with my depression?
-  - I feel depressed all the time
-  - how to handle depression?
-  - how to fight depression?
-  - I am depressed as hell
-
-- intent: help_anxiety
-  examples:
-  - could you help me with my anxiety?
-  - I feel very anxious
-  - Do you know how to handle anxiety?
-  - when anxiety hits, I can't do anything
-
-
-- intent: help_procrastination
-  examples:
-  - I procrastinate a lot
-  - How to stop procrastinating?
-  - is procrastination a bad sign for my mental health?
-  - why do I procrastinate even though I know I should be preparing for my exam?
-  - I procrastinated the whole day
-
-- intent: help_loneliness
-  examples:
-  - I feel lonely
-  - I'm all alone
-  - I have no friends
-  - Nobody likes me
-  - I need someone to talk to
-  - No one talks to me
-  - I'm a loner
-
-- intent: tech_question
-  examples:
-  - tell me about techniques
-  - what techniques?
-
+  - mood_great
+  - bot_scope
 
 slots:
-  correct_city:
+  name:
     type: text
-templates:
+    
+responses:
   utter_techinfo:
   - text: These techniques are used in CBT, ask me about techniques for particular problem, like Techniques against depression or Procrastination.
   utter_procrastination_techs:

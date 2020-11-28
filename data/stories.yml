@@ -1,0 +1,20 @@
+version: "2.0"
+stories:
+- story: Great mood
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_good_mood
+- story: Depression
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: help_depression
+  - action: utter_depression_techs
+- story: Problems list
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: bot_scope
+  - action: utter_problems_list
