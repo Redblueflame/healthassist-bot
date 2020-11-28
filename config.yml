@@ -1,18 +1,24 @@
 language: en
 pipeline:
-- name: WhitespaceTokenizer
-- name: RegexFeaturizer
-- name: LexicalSyntacticFeaturizer
+- name: ConveRTTokenizer
+  model_url: https://github.com/connorbrinton/polyai-models/releases/download/v1.0/model.tar.gz
+- name: ConveRTFeaturizer
 - name: CountVectorsFeaturizer
 - name: CountVectorsFeaturizer
   analyzer: char_wb
   min_ngram: 1
   max_ngram: 4
+- name: RegexFeaturizer
+- name: LexicalSyntacticFeaturizer
 - name: DIETClassifier
-  epochs: 100
-- name: EntitySynonymMapper
+  epochs: 60
+  scale_loss: False
+  weight_sparsity: 0.3
+  transformer_size: 512
+  BILOU_flag: True
 - name: ResponseSelector
-  epochs: 100
+  epochs: 50
+- name: EntitySynonymMapper
 policies:
 - name: MemoizationPolicy
 - name: EmbeddingPolicy
