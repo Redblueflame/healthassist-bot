@@ -104,4 +104,42 @@ stories:
       - intent: mood_great
     - action: utter_good_mood
 
+  - story: Procrastination2
+    steps:
+    - intent: help_procrastination
+    - action: utter_procrastination_help
+    - intent: techprocrastination
+    - action: utter_procrastination_techs
+    - intent: rewarddiversification
+    - action: utter_rewarddiversification
 
+  - story: Loneliness therapy2
+    steps:
+    - intent: help_loneliness
+    - action: utter_loneliness_help
+    - intent: techloneliness
+    - action: utter_loneliness_techs
+    - intent: evidenceverification
+    - action: utter_verificationevidence
+
+  - story: Depression therapy2
+    steps:
+    - intent: help_depression
+    - action: utter_depression_help
+    - intent: techdepression
+    - action: utter_depression_techs
+    - intent: travelingtofuture
+    - action: utter_travelingtofuture
+    - intent: affirm
+    - action: utter_travelingtofuture2
+
+  - story: Anxiety therapy2
+    steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: help_anxiety
+    - action: utter_anxiety_help
+    - intent: techanxiety
+    - action: utter_anxietyTechs
+    - intent: accepting_thoughts
+    - action: utter_acceptingthoughts

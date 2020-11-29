@@ -536,3 +536,37 @@ nlu:
     - very tired
     - bad
     - tired
+- intent: travelingtofuture
+  examples: |
+    - Traveling to future technique
+    - Traveling to the future
+- intent: accepting_thoughts
+  examples: |
+    - Accepting accepting
+    - accepting thoughts technique sounds interesting
+    - tell me how to accept thoughts
+- intent: rewarddiversification
+  examples: |
+    - Diversification of reward sources
+    - Diversification technique
+    - The technique about diversification of rewards
+
+- intent: evidenceverification
+  examples: |
+    - Verification evidence
+    - verification of evidence technique
+
+- intent: procrastination_techs
+  examples: |
+    - What are the procrastination techniques?
+    - Procrastination techniques
+
+- intent: techprocrastination
+  examples: |
+    - What are the procrastination techniques?
+    - Procrastination techniques
+
+- intent: techloneliness
+  examples: |
+    - What are the loneliness techniques?
+    - Loneliness techniques

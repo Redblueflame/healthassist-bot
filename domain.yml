@@ -23,6 +23,14 @@ intents:
 - deny
 - boostmood
 - badmood
+- travelingtofuture
+- accepting_thoughts
+- rewarddiversification
+- evidenceverification
+- procrastination_techs
+- techprocrastination
+- techloneliness
+
 slots:
   name:
     type: text
@@ -99,3 +107,13 @@ responses:
   - text: Talking to your close friends is always healing🕺💃
   utter_whatscbt:
   - text: Cognitive behavioral therapy (CBT) is a psycho-social intervention that aims to improve mental health. CBT focuses on challenging and changing unhelpful cognitive distortions (e.g. thoughts, beliefs, and attitudes)
+  utter_travelingtofuture:
+  - text: "People  stuck on their problems today tend to see their future based on bad emotions they have. But how often did you overcome similar problems in the past which at that time you also found unsolvable. Right?"
+  utter_travelingtofuture2:
+  - text: "It is okay to feeal sad or sorry but remember that time heals and you'll be able to cope with things that bother you now."
+  utter_acceptingthoughts:
+  - text: "Instead of controling everything, sometimes it's better to try and accept things to learn. Like weather, needs to sleep or eat, you're not worrying about it, you're accepting it.Try to do the same to your worries, no interpretation, no future prediction, only what happened and what you can gain from it."
+  utter_rewarddiversification:
+  - text: "This technique is to help you understand that there are plenty of sources you get joy, happiness, satisfaction from. So, losing one of them will not distroy meaning of your life. Learn to reach out to other sources when needed."
+  utter_verificationevidence:
+  - text: "Many of the terrible thoughts we have are not logical, therefore you don't have to worry about them. Try to proove your thoughts factually without emotions. Write down somewhere what are pros and cons of it, why they have meaning to you."
