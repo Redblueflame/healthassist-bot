@@ -6,6 +6,14 @@ nlu:
     - How does it work ?
     - What's that ?
     - What's CBT
+    - What are cbt techniques?
+    - What is cbt ?
+    - what is CBT>
+    - What's CBT ?
+    - What is CBT ?
+    - What is the best CBT technique?
+    - What is it ?
+    - No what is it ?
 - intent: help_depression
   examples: |
     - could you help me with my depression?
@@ -13,6 +21,10 @@ nlu:
     - how to handle depression?
     - how to fight depression?
     - I am depressed as hell
+    - I feel terrible
+    - i feel depressed as hell
+    - i wanna die
+    - I feel very depressed since Monday(
 - intent: help_anxiety
   examples: |
     - could you help me with my anxiety?
@@ -36,10 +48,17 @@ nlu:
     - I need someone to talk to
     - No one talks to me
     - I'm a loner
+    - lonely
+    - loneliness
 - intent: tech_question
   examples: |
     - tell me about techniques
+- intent: techanxiety
+  examples: |
     - what techniques?
+    - What techniques do you know against anxiety?
+    - tell me about anxiety techniques
+    - anxiety techniques
 - intent: greet
   examples: |
     - Hello!
@@ -52,6 +71,16 @@ nlu:
     - Hey
     - Yo
     - Sup
+    - hi
+    - Hi :)
+    - Hello
+    - hello
+    - hi there
+    - hello!
+    - you there?
+    - hey?
+    - wazza
+    - hey
 - intent: mood_great
   examples: |
     - perfect
@@ -70,6 +99,8 @@ nlu:
     - so perfect
     - good
     - fine
+    - Great, thanks :)
+    - :D
 - intent: bot_scope
   examples: |
     - how could you help?
@@ -77,6 +108,9 @@ nlu:
     - how can you help me
     - I'm lost
     - how can you fix me
+    - ?
+    - I just want to sleep
+    - How are you doing
 - intent: decidingforyourself
   examples: |
     - Deciding for yourself technique
@@ -93,16 +127,13 @@ nlu:
   examples: |
     - Losing everything technique
     - tell me about losing all technique
-- intent: techanxiety
-  examples: |
-    - What techniques do you know against anxiety?
-    - tell me about anxiety techniques
-    - anxiety techniques
+    - Losing everything
 - intent: techdepression
   examples: |
     - techniques on depression
     - what tips do you have against depression
     - depression techniques
+    - Do you know depression techniques?
 - intent: affirm
   examples: |
     - **YES**
@@ -137,7 +168,6 @@ nlu:
     - definitely!
     - defo
     - do it
-    - fine
     - fine let's do that
     - fine lets go
     - i think so
@@ -353,6 +383,7 @@ nlu:
     - Yeah sounds good
     - oh yes
     - Yes pls
+    - wow
 - intent: goodbye
   examples: |
     - Godspeed
@@ -475,6 +506,7 @@ nlu:
     - I'd prefer if you did that for me - I'm time poor.
     - i think i know it already
     - Neither do I, unfortunately.
+    - no you didn't
 - intent: boostmood
   examples: |
     - How to improve my mood?
@@ -483,9 +515,13 @@ nlu:
     - Can you advise me on how to boost my mood?
 - intent: badmood
   examples: |
-    - I feel terrible
     - Awful
     - I am very tired
     - I hate myself and everything
     - I feel soo bad, you can't imagine
     - I am sad
+    - very bad
+    - Not very well
+    - very tired
+    - bad
+    - tired
