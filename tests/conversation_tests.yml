@@ -1,0 +1,14 @@
+version: "2.0"
+stories:
+- story: Story from Conversation ID 7b87354f95b84f6e91d82ffdd82b8aed
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: help_depression
+  - action: utter_depression_help
+  - intent: techdepression
+  - action: utter_depression_techs
+  - intent: losingall
+  - action: utter_losingall
+  - intent: help_loneliness
+  - action: action_default_fallback
