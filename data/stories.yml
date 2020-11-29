@@ -213,3 +213,27 @@ stories:
   - action: utter_thanking
   - intent: goodbye
   - action: utter_goodbye
+- story: Story from Conversation ID 012755cd96a64fdbb87908cc37124915
+  steps:
+  - intent: techdepression
+  - action: utter_procrastination_techs
+  - intent: badmood
+  - action: utter_decidingforyourself
+  - intent: affirm
+  - action: utter_decidingforyourself2
+  - intent: affirm
+  - action: utter_decidingforyourself3
+- story: Story from Conversation ID e08337a9e37444afa1c6525faeb3b429
+  steps:
+  - intent: badmood
+  - action: utter_boostmood
+  - intent: boostmood
+  - action: utter_boostmoodtips
+  - intent: help_loneliness
+  - action: utter_thanking
+  - intent: whatcanido
+  - action: utter_techinfo
+  - intent: techdepression
+  - action: utter_depression_techs
+  - intent: losingall
+  - action: utter_losingall
