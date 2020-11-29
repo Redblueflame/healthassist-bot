@@ -95,3 +95,12 @@ stories:
     - action: utter_procrastination_help
     - intent: goodbye
     - action: utter_goodbye
+  - story: Everyhing is perfect
+    steps:
+    - intent: greet
+    - action: utter_greet
+    - or:
+      - intent: affirm
+      - intent: mood_great
+
+
