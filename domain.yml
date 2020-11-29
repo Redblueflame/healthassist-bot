@@ -99,8 +99,3 @@ responses:
   - text: Talking to your close friends is always healing🕺💃
   utter_whatscbt:
   - text: Cognitive behavioral therapy (CBT) is a psycho-social intervention that aims to improve mental health. CBT focuses on challenging and changing unhelpful cognitive distortions (e.g. thoughts, beliefs, and attitudes)
-actions:
-- utter_goodbye
-- utter_greet
-- utter_losingall
-- utter_whatscbt
