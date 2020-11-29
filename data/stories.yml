@@ -1,145 +1,144 @@
 version: "2.0"
 stories:
-  - story: Procrastination therapy
-    steps:
-      - intent: greet
-      - action: utter_greet
-      - intent: help_procrastination
-      - action: utter_procrastination_help
-      - intent: decidingforyourself
-      - action: utter_decidingforyourself
-      - intent: affirm
-      - action: utter_decidingforyourself2
-      - intent: affirm
-      - action: utter_decidingforyourself3
-      - intent: affirm
-      - action: utter_asksession
-      - intent: affirm
-      - action: utter_thanking
-
-  - story: Loneliness therapy
-    steps:
-      - intent: greet
-      - action: utter_greet
-      - intent: help_loneliness
-      - action: utter_loneliness_help
-      - intent: whatcanido
-      - action: utter_whatcanido
-      - intent: affirm
-      - action: utter_whatcanido2
-      - intent: affirm
-      - action: utter_asksession
-      - intent: affirm
-      - action: utter_thanking
-
-  - story: Anxiety therapy
-    steps:
-      - intent: greet
-      - action: utter_greet
-      - intent: help_anxiety
-      - action: utter_anxiety_help
-      - intent: techanxiety
-      - action: utter_anxietyTechs
-      - intent: deliberatewithdrawal
-      - action: utter_deliberatewithdrawal
-      - intent: deny
-      - action: utter_deliberatewithdrawal2
-      - intent: affirm
-      - action: utter_thanking
-
-  - story: Depression therapy
-    steps:
-      - intent: greet
-      - action: utter_greet
-      - intent: help_depression
-      - action: utter_depression_help
-      - intent: techdepression
-      - action: utter_depression_techs
-      - intent: losingall
-      - action: utter_losingall
-      - intent: affirm
-      - action: utter_asksession
-      - intent: affirm
-      - action: utter_thanking
-
-  - story: Not helped
-    steps:
-      - intent: affirm
-      - action: utter_asksession
-      - intent: deny
-      - action: utter_sorry_fail
-
-  - story: BoostingMood
-    steps:
-      - intent: boostmood
-      - action: utter_boostmoodtips
-
-  - story: BoostingMood2
-    steps:
-      - intent: badmood
-      - action: utter_boostmood
-      - intent: boostmood
-      - action: utter_boostmoodtips
-
-  - story: Whats CBT
-    steps:
-      - intent: whatscbt
-      - action: utter_whatscbt
-  - story: interactive_story_1
-    steps:
-    - intent: greet
-    - action: utter_greet
-    - intent: whatscbt
-    - action: utter_whatscbt
-    - intent: help_procrastination
-    - action: utter_procrastination_help
-    - intent: goodbye
-    - action: utter_goodbye
-  - story: Everyhing is perfect
-    steps:
-    - intent: greet
-    - action: utter_greet
-    - or:
-      - intent: affirm
-      - intent: mood_great
-    - action: utter_good_mood
-
-  - story: Procrastination2
-    steps:
-    - intent: help_procrastination
-    - action: utter_procrastination_help
-    - intent: techprocrastination
-    - action: utter_procrastination_techs
-    - intent: rewarddiversification
-    - action: utter_rewarddiversification
-
-  - story: Loneliness therapy2
-    steps:
-    - intent: help_loneliness
-    - action: utter_loneliness_help
-    - intent: techloneliness
-    - action: utter_loneliness_techs
-    - intent: evidenceverification
-    - action: utter_verificationevidence
-
-  - story: Depression therapy2
-    steps:
-    - intent: help_depression
-    - action: utter_depression_help
-    - intent: techdepression
-    - action: utter_depression_techs
-    - intent: travelingtofuture
-    - action: utter_travelingtofuture
+- story: Procrastination therapy
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: help_procrastination
+  - action: utter_procrastination_help
+  - intent: decidingforyourself
+  - action: utter_decidingforyourself
+  - intent: affirm
+  - action: utter_decidingforyourself2
+  - intent: affirm
+  - action: utter_decidingforyourself3
+  - intent: affirm
+  - action: utter_asksession
+  - intent: affirm
+  - action: utter_thanking
+- story: Loneliness therapy
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: help_loneliness
+  - action: utter_loneliness_help
+  - intent: whatcanido
+  - action: utter_whatcanido
+  - intent: affirm
+  - action: utter_whatcanido2
+  - intent: affirm
+  - action: utter_asksession
+  - intent: affirm
+  - action: utter_thanking
+- story: Anxiety therapy
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: help_anxiety
+  - action: utter_anxiety_help
+  - intent: techanxiety
+  - action: utter_anxietyTechs
+  - intent: deliberatewithdrawal
+  - action: utter_deliberatewithdrawal
+  - intent: deny
+  - action: utter_deliberatewithdrawal2
+  - intent: affirm
+  - action: utter_thanking
+- story: Depression therapy
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: help_depression
+  - action: utter_depression_help
+  - intent: techdepression
+  - action: utter_depression_techs
+  - intent: losingall
+  - action: utter_losingall
+  - intent: affirm
+  - action: utter_asksession
+  - intent: affirm
+  - action: utter_thanking
+- story: Not helped
+  steps:
+  - intent: affirm
+  - action: utter_asksession
+  - intent: deny
+  - action: utter_sorry_fail
+- story: BoostingMood
+  steps:
+  - intent: boostmood
+  - action: utter_boostmoodtips
+- story: BoostingMood2
+  steps:
+  - intent: badmood
+  - action: utter_boostmood
+  - intent: boostmood
+  - action: utter_boostmoodtips
+- story: Whats CBT
+  steps:
+  - intent: whatscbt
+  - action: utter_whatscbt
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: whatscbt
+  - action: utter_whatscbt
+  - intent: help_procrastination
+  - action: utter_procrastination_help
+  - intent: goodbye
+  - action: utter_goodbye
+- story: Everyhing is perfect
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - or:
     - intent: affirm
-    - action: utter_travelingtofuture2
-
-  - story: Anxiety therapy2
-    steps:
-    - intent: greet
-    - action: utter_greet
-    - intent: help_anxiety
-    - action: utter_anxiety_help
-    - intent: techanxiety
-    - action: utter_anxietyTechs
-    - intent: accepting_thoughts
-    - action: utter_acceptingthoughts
+    - intent: mood_great
+  - action: utter_good_mood
+- story: Procrastination2
+  steps:
+  - intent: help_procrastination
+  - action: utter_procrastination_help
+  - intent: techprocrastination
+  - action: utter_procrastination_techs
+  - intent: rewarddiversification
+  - action: utter_rewarddiversification
+- story: Loneliness therapy2
+  steps:
+  - intent: help_loneliness
+  - action: utter_loneliness_help
+  - intent: techloneliness
+  - action: utter_loneliness_techs
+  - intent: evidenceverification
+  - action: utter_verificationevidence
+- story: Depression therapy2
+  steps:
+  - intent: help_depression
+  - action: utter_depression_help
+  - intent: techdepression
+  - action: utter_depression_techs
+  - intent: travelingtofuture
+  - action: utter_travelingtofuture
+  - intent: affirm
+  - action: utter_travelingtofuture2
+- story: Anxiety therapy2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: help_anxiety
+  - action: utter_anxiety_help
+  - intent: techanxiety
+  - action: utter_anxietyTechs
+  - intent: accepting_thoughts
+  - action: utter_acceptingthoughts
+- story: Story from Conversation ID f6871cc6f8a048de98a9491673b5c834
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: techdepression
+  - action: utter_depression_techs
+  - intent: losingall
+  - action: utter_losingall
+  - intent: goodbye
+  - action: utter_goodbye
