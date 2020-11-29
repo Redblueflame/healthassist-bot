@@ -1,99 +1,106 @@
-version: "2.0"
+version: '2.0'
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
 intents:
-  - whatscbt
-  - help_depression
-  - help_anxiety
-  - help_procrastination
-  - help_loneliness
-  - tech_question
-  - greet
-  - mood_great
-  - bot_scope
-  - decidingforyourself
-  - whatcanido
-  - deliberatewithdrawal
-  - losingall
-  - techanxiety
-  - techdepression
-  - affirm
-  - goodbye
-  - deny
-  - boostmood
-  - badmood
-  
+- whatscbt
+- greet
+- help_procrastination
+- goodbye
+- help_depression
+- help_anxiety
+- help_loneliness
+- tech_question
+- mood_great
+- bot_scope
+- decidingforyourself
+- whatcanido
+- deliberatewithdrawal
+- losingall
+- techanxiety
+- techdepression
+- affirm
+- deny
+- boostmood
+- badmood
 slots:
   name:
     type: text
-    
+    influence_conversation: true
 responses:
   utter_techinfo:
   - text: These techniques are used in CBT, ask me about techniques for particular problem, like Techniques against depression or Procrastination.
   utter_procrastination_techs:
-  - text: "I am glad to hear that you want to know about the techniques. The list against procrastination contains following: \"Deciding for future self\", \"Diversification of reward sources\""
+  - text: 'I am glad to hear that you want to know about the techniques. The list against procrastination contains following: "Deciding for future self", "Diversification of reward sources"'
   utter_procrastination_help:
-  - text: "Procrastination seems like laziness and we blame ourselves for being lazy but actually that's a tottaly different thing. Ask me about techniques against procrastination and I will share some :)"
+  - text: Procrastination seems like laziness and we blame ourselves for being lazy but actually that's a tottaly different thing. Ask me about techniques against procrastination and I will share some :)
   utter_problems_list:
-  - text: "Depression, Anxiety, Loneliness and Procrastination. Ask me how to fight any of these."
-  - text: "I have few tips on how to fight against Depression, Anxiety, Loneliness and Procrastination. Ask me about particular one and I tell you how :)"
-  - text: "The problems are Depression, Anxiety, Loneliness and Procrastination."
-  - text: "Here is a list of problems I can share techniques to fight against: Depression, Anxiety, Loneliness, Procrastination."
-  - text: "I can share some tips to fight against Depression, Anxiety, Loneliness and Procrastination."
-  - text: "I can help you with these 4 problems: Depression, Anxiety, Loneliness and Procrastination."
+  - text: Depression, Anxiety, Loneliness and Procrastination. Ask me how to fight any of these.
+  - text: I have few tips on how to fight against Depression, Anxiety, Loneliness and Procrastination. Ask me about particular one and I tell you how :)
+  - text: The problems are Depression, Anxiety, Loneliness and Procrastination.
+  - text: 'Here is a list of problems I can share techniques to fight against: Depression, Anxiety, Loneliness, Procrastination.'
+  - text: I can share some tips to fight against Depression, Anxiety, Loneliness and Procrastination.
+  - text: 'I can help you with these 4 problems: Depression, Anxiety, Loneliness and Procrastination.'
   utter_loneliness_techs:
-  - text: "\"What can I do\",\"Verification of evidence\". Choose one I tell you more."
+  - text: '"What can I do","Verification of evidence". Choose one I tell you more.'
   utter_loneliness_help:
-  - text: "We all feel lonely at some point, even I can relate to that... Do you want to know how to understand and accept it?"
+  - text: We all feel lonely at some point, even I can relate to that... Do you want to know how to understand and accept it?
   utter_greet:
-  - text: "Hi there! I was developed by HealthAssist hackathoners:)) How do you feel?"
-  - text: "Hey hey hey, I'm a new psychotherapy bot. I can tell you aout CBT!"
-  - text: "Hello, amigo:) How are you?"
-  - text: "Hello! I am a bot developed by HealthAssist hackathon team and I will gladly tell you about some of CBT techniques!"
+  - text: Hi there! I was developed by HealthAssist hackathoners:)) How do you feel?
+  - text: Hey hey hey, I'm a new psychotherapy bot. I can tell you aout CBT!
+  - text: Hello, amigo:) How are you?
+  - text: Hello! I am a bot developed by HealthAssist hackathon team and I will gladly tell you about some of CBT techniques!
   utter_good_mood:
-  - text: "Awesome. Keep it up!"
-  - text: "That's great to hear! Did you hear about CBT?"
+  - text: Awesome. Keep it up!
+  - text: That's great to hear! Did you hear about CBT?
   utter_depression_techs:
-  - text: "There are two wonderful techniques: \"Losing everything\" and \"Traveling to the future\". Choose one I tell you more about it!"
+  - text: 'There are two wonderful techniques: "Losing everything" and "Traveling to the future". Choose one I tell you more about it!'
   utter_anxiety_help:
-  - text: "Oww, I am so sorry you feel that way! Let me share some techniques that I know!"
+  - text: Oww, I am so sorry you feel that way! Let me share some techniques that I know!
   utter_depression_help:
-  - text: "That's a difficult time now...Ask me about the depression tehniques, so we can learn to handle it better"
+  - text: That's a difficult time now...Ask me about the depression tehniques, so we can learn to handle it better
   utter_badmood:
-  - text: "I am sorry to hear that!"
+  - text: I am sorry to hear that!
   utter_whatcanido:
-  - text: "I can understand the way you feel no matter what happened to you. Because of our loss we focus on it and often don't see other opportunities that are open to us. Don't you think so?"
+  - text: I can understand the way you feel no matter what happened to you. Because of our loss we focus on it and often don't see other opportunities that are open to us. Don't you think so?
   utter_whatcanido2:
-  - text: "Let's imagine that you in a buffet. You craved for salmon but a waiter said they don't have it anymore. On the one hand, you could be very sad about that, on the other hand there are 20 more dishes you could still enjoy!"
+  - text: Let's imagine that you in a buffet. You craved for salmon but a waiter said they don't have it anymore. On the one hand, you could be very sad about that, on the other hand there are 20 more dishes you could still enjoy!
   utter_decidingforyourself:
-  - text: "Often we decide based on what we want right now. we want everything here and now, we don't want to wait. Right?"
+  - text: Often we decide based on what we want right now. we want everything here and now, we don't want to wait. Right?
   utter_decidingforyourself2:
-  - text: "This technique contains with imagining yourself in 10 years. The person you become what would he/she be thinking on your actions today?... Would he/she criticize you?"
+  - text: This technique contains with imagining yourself in 10 years. The person you become what would he/she be thinking on your actions today?... Would he/she criticize you?
   utter_decidingforyourself3:
-  - text: "People forget that their actions today will define their future self.It can become what you imagine now and can not become. It depends on present you what decision will be made."
+  - text: People forget that their actions today will define their future self.It can become what you imagine now and can not become. It depends on present you what decision will be made.
   utter_deliberatewithdrawal:
-  - text: "We all have thoughts that are in some or another way are bothering us. If I would say to you Do not think about elephants, whould you be able not to think about it?"
+  - text: We all have thoughts that are in some or another way are bothering us. If I would say to you Do not think about elephants, whould you be able not to think about it?
   utter_deliberatewithdrawal2:
-  - text: "Correct. That's why this teqchnique will teach you how to deliberately withdraw your attention. Imagine you got a spam call with some marketing, you would hang up on them without hesitation and carry on to what you've been doing. You should do the same to your bothering thoughts. As soon as you recognize \"who is calling\", try to \"hang up on it\"."
+  - text: Correct. That's why this teqchnique will teach you how to deliberately withdraw your attention. Imagine you got a spam call with some marketing, you would hang up on them without hesitation and carry on to what you've been doing. You should do the same to your bothering thoughts. As soon as you recognize "who is calling", try to "hang up on it".
   utter_losingall:
-  - text: "Depression is to some degree devaluation of positive aspects of your life. Let's imagine that some supreme being took everything from you, everything, you have no body, no intelligence, no memories, no friends, no family... And now it can grant you some of it back but only if you proove you need it. Close your eyes and substantiate to yourself all you want back."
+  - text: Depression is to some degree devaluation of positive aspects of your life. Let's imagine that some supreme being took everything from you, everything, you have no body, no intelligence, no memories, no friends, no family... And now it can grant you some of it back but only if you proove you need it. Close your eyes and substantiate to yourself all you want back.
   utter_thanking:
-  - text: "Thank you for your time!"
+  - text: Thank you for your time!
   utter_asksession:
-  - text: "Did I help you with anything today?:)"
-  utter_sorry:
-  - text: "I am sorry I wasted your time:( I only learn now and can make mistakes, thank you anyway for your interaction with me!"
+  - text: Did I help you with anything today?:)
+  utter_sorry_fail:
+  - text: I am sorry I wasted your time:( I only learn now and can make mistakes, thank you anyway for your interaction with me!
   utter_anxietyTechs:
-  - text: "To fight anxiety I prepared for you two techniques: Deliberate withdrawal and Accepting thoughts. Choose one and I tell you more about it!"
+  - text: 'To fight anxiety I prepared for you two techniques: Deliberate withdrawal and Accepting thoughts. Choose one and I tell you more about it!'
   utter_goodbye:
-  - text: "See ya!"
-  - text: "Goodbye"
-  - text: "Have a great day!"
-  - text: "Hoped I help, and goodbye"
+  - text: See ya!
+  - text: Goodbye
+  - text: Have a great day!
+  - text: Hoped I help, and goodbye
   utter_boostmood:
-  - text: "Ask me how to improve your mood, I have some tips for you:)"
+  - text: Ask me how to improve your mood, I have some tips for you:)
   utter_boostmoodtips:
-  - text: "Give yourself a break and listen to your favourite music 🎧🎻🥁🎸 You can sing with 🎤 if you want to!"
-  - text: "Let's please ourselves once in a while with a small present🎁 You deserve it🎀"
-  - text: "We all enjoy tasty food🍩🍮🍫 Give yourself a reward cake 🎂"
-  - text: "Talking to your close friends is always healing🕺💃"
+  - text: Give yourself a break and listen to your favourite music 🎧🎻🥁🎸 You can sing with 🎤 if you want to!
+  - text: Let's please ourselves once in a while with a small present🎁 You deserve it🎀
+  - text: We all enjoy tasty food🍩🍮🍫 Give yourself a reward cake 🎂
+  - text: Talking to your close friends is always healing🕺💃
   utter_whatscbt:
-  - text: "Cognitive behavioral therapy (CBT) is a psycho-social intervention that aims to improve mental health. CBT focuses on challenging and changing unhelpful cognitive distortions (e.g. thoughts, beliefs, and attitudes)"
+  - text: Cognitive behavioral therapy (CBT) is a psycho-social intervention that aims to improve mental health. CBT focuses on challenging and changing unhelpful cognitive distortions (e.g. thoughts, beliefs, and attitudes)
+actions:
+- utter_goodbye
+- utter_greet
+- utter_losingall
+- utter_whatscbt

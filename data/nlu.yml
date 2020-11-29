@@ -5,7 +5,7 @@ nlu:
     - What is CBT
     - How does it work ?
     - What's that ?
-
+    - What's CBT
 - intent: help_depression
   examples: |
     - could you help me with my depression?
@@ -13,15 +13,12 @@ nlu:
     - how to handle depression?
     - how to fight depression?
     - I am depressed as hell
-
 - intent: help_anxiety
   examples: |
     - could you help me with my anxiety?
     - I feel very anxious
     - Do you know how to handle anxiety?
     - when anxiety hits, I can't do anything
-
-
 - intent: help_procrastination
   examples: |
     - I procrastinate a lot
@@ -29,7 +26,7 @@ nlu:
     - is procrastination a bad sign for my mental health?
     - why do I procrastinate even though I know I should be preparing for my exam?
     - I procrastinated the whole day
-
+    - I procrastinate
 - intent: help_loneliness
   examples: |
     - I feel lonely
@@ -39,12 +36,10 @@ nlu:
     - I need someone to talk to
     - No one talks to me
     - I'm a loner
-
 - intent: tech_question
   examples: |
     - tell me about techniques
     - what techniques?
-
 - intent: greet
   examples: |
     - Hello!
@@ -52,13 +47,11 @@ nlu:
     - Hi
     - Hi!
     - Hi !
-    - Hi
     - Good morning
     - Good afternoon
     - Hey
     - Yo
     - Sup
-
 - intent: mood_great
   examples: |
     - perfect
@@ -77,7 +70,6 @@ nlu:
     - so perfect
     - good
     - fine
-
 - intent: bot_scope
   examples: |
     - how could you help?
@@ -85,41 +77,33 @@ nlu:
     - how can you help me
     - I'm lost
     - how can you fix me
-
 - intent: decidingforyourself
   examples: |
     - Deciding for yourself technique
     - Deciding technique
-
 - intent: whatcanido
   examples: |
     - What can I do
     - what can I do sounds interesting
-
 - intent: deliberatewithdrawal
   examples: |
     - Deliberate withdrawal
     - Deliberate withdrawal technique
-
 - intent: losingall
   examples: |
     - Losing everything technique
     - tell me about losing all technique
-
 - intent: techanxiety
   examples: |
     - What techniques do you know against anxiety?
     - tell me about anxiety techniques
     - anxiety techniques
-
 - intent: techdepression
   examples: |
     - techniques on depression
     - what tips do you have against depression
     - depression techniques
-
 - intent: affirm
-
   examples: |
     - **YES**
     - *YES*
@@ -369,7 +353,6 @@ nlu:
     - Yeah sounds good
     - oh yes
     - Yes pls
-
 - intent: goodbye
   examples: |
     - Godspeed
@@ -427,7 +410,6 @@ nlu:
     - Get your business off my phone
     - Hang up
     - OK goodbye
-
 - intent: deny
   examples: |
     - NO
@@ -493,14 +475,12 @@ nlu:
     - I'd prefer if you did that for me - I'm time poor.
     - i think i know it already
     - Neither do I, unfortunately.
-    
 - intent: boostmood
   examples: |
     - How to improve my mood?
     - What should I do to feel better?
     - How to feel better?
     - Can you advise me on how to boost my mood?
-
 - intent: badmood
   examples: |
     - I feel terrible

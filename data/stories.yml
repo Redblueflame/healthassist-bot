@@ -67,7 +67,7 @@ stories:
       - intent: affirm
       - action: utter_asksession
       - intent: deny
-      - action: utter_sorry
+      - action: utter_sorry_fail
 
   - story: BoostingMood
     steps:
@@ -85,3 +85,13 @@ stories:
     steps:
       - intent: whatscbt
       - action: utter_whatscbt
+  - story: interactive_story_1
+    steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: whatscbt
+    - action: utter_whatscbt
+    - intent: help_procrastination
+    - action: utter_procrastination_help
+    - intent: goodbye
+    - action: utter_goodbye
