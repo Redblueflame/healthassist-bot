@@ -12,3 +12,17 @@ stories:
   - action: utter_losingall
   - intent: help_loneliness
   - action: action_default_fallback
+- story: Story from Conversation ID 343e0d98a0824b37a035240b1a401ba1
+  steps:
+  - intent: help_loneliness
+  - action: utter_loneliness_help
+  - intent: affirm
+  - action: utter_loneliness_techs
+  - intent: whatcanido
+  - action: utter_whatcanido
+  - intent: affirm
+  - action: utter_whatcanido2
+  - intent: bot_scope
+  - action: utter_thanking
+  - intent: goodbye
+  - action: utter_goodbye

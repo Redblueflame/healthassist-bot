@@ -142,3 +142,74 @@ stories:
   - action: utter_losingall
   - intent: goodbye
   - action: utter_goodbye
+- story: Story from Conversation ID 3c2b2cc547474969a036b0b276c089b5
+  steps:
+  - intent: techdepression
+  - action: utter_procrastination_techs
+- story: Story from Conversation ID 3c2b2cc547474969a036b0b276c089b5
+  steps:
+  - intent: techdepression
+  - action: utter_procrastination_techs
+- story: Story from Conversation ID 269c53aebee64676aa24906f72bf22cf
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: badmood
+  - action: utter_badmood
+  - action: utter_techinfo
+- story: Story from Conversation ID bc10cb3d685e4f0d9bd132970b806ffe
+  steps:
+  - intent: techdepression
+  - action: utter_procrastination_techs
+- story: Story from Conversation ID bc10cb3d685e4f0d9bd132970b806ffe
+  steps:
+  - intent: techdepression
+  - action: utter_procrastination_techs
+- story: Story from Conversation ID 343e0d98a0824b37a035240b1a401ba1
+  steps:
+  - intent: help_loneliness
+  - action: utter_loneliness_help
+  - intent: affirm
+  - action: utter_loneliness_techs
+  - intent: whatcanido
+  - action: utter_whatcanido
+  - intent: affirm
+  - action: utter_whatcanido2
+  - intent: bot_scope
+  - action: utter_thanking
+  - intent: goodbye
+  - action: utter_goodbye
+- story: Story from Conversation ID 343e0d98a0824b37a035240b1a401ba1
+  steps:
+  - intent: help_loneliness
+  - action: utter_loneliness_help
+  - intent: affirm
+  - action: utter_loneliness_techs
+  - intent: whatcanido
+  - action: utter_whatcanido
+  - intent: affirm
+  - action: utter_whatcanido2
+  - intent: bot_scope
+  - action: utter_thanking
+  - intent: goodbye
+  - action: utter_goodbye
+- story: Story from Conversation ID 13150dcac9a145dc88e236ff164f55d7
+  steps:
+  - intent: whatscbt
+  - action: utter_whatscbt
+  - intent: evidenceverification
+  - action: utter_techinfo
+  - intent: techdepression
+  - action: utter_procrastination_techs
+  - intent: badmood
+  - action: utter_decidingforyourself
+  - intent: affirm
+  - action: utter_decidingforyourself2
+  - intent: affirm
+  - action: utter_decidingforyourself3
+  - intent: affirm
+  - action: utter_asksession
+  - intent: affirm
+  - action: utter_thanking
+  - intent: goodbye
+  - action: utter_goodbye
