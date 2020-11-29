@@ -1,6 +1,7 @@
 language: en
 pipeline:
 - name: ConveRTTokenizer
+  model_url: https://github.com/connorbrinton/polyai-models/releases/download/v1.0/model.tar.gz
 - name: ConveRTFeaturizer
   model_url: https://github.com/connorbrinton/polyai-models/releases/download/v1.0/model.tar.gz
 - name: CountVectorsFeaturizer
@@ -24,3 +25,4 @@ policies:
 - name: TEDPolicy
   max_history: 5
   epochs: 10
+- name: RulePolicy

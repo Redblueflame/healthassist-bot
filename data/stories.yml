@@ -102,5 +102,6 @@ stories:
     - or:
       - intent: affirm
       - intent: mood_great
+    - action: utter_good_mood
 
 
