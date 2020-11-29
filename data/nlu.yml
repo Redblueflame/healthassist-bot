@@ -14,6 +14,10 @@ nlu:
     - What is the best CBT technique?
     - What is it ?
     - No what is it ?
+    - What is CBT?
+    - what is cbt?
+    - Tell me about CBT
+    - Ok, tell me about cbt
 - intent: help_depression
   examples: |
     - could you help me with my depression?
@@ -21,10 +25,12 @@ nlu:
     - how to handle depression?
     - how to fight depression?
     - I am depressed as hell
-    - I feel terrible
     - i feel depressed as hell
     - i wanna die
     - I feel very depressed since Monday(
+    - depressed
+    - depression
+    - Yeah I don't care about CBT
 - intent: help_anxiety
   examples: |
     - could you help me with my anxiety?
@@ -50,15 +56,11 @@ nlu:
     - I'm a loner
     - lonely
     - loneliness
+    - :(
 - intent: tech_question
   examples: |
     - tell me about techniques
-- intent: techanxiety
-  examples: |
     - what techniques?
-    - What techniques do you know against anxiety?
-    - tell me about anxiety techniques
-    - anxiety techniques
 - intent: greet
   examples: |
     - Hello!
@@ -81,6 +83,7 @@ nlu:
     - hey?
     - wazza
     - hey
+    - Hola
 - intent: mood_great
   examples: |
     - perfect
@@ -101,6 +104,8 @@ nlu:
     - fine
     - Great, thanks :)
     - :D
+    - Good and you
+    - I'm ok
 - intent: bot_scope
   examples: |
     - how could you help?
@@ -111,6 +116,7 @@ nlu:
     - ?
     - I just want to sleep
     - How are you doing
+    - Well, happy hacking to you
 - intent: decidingforyourself
   examples: |
     - Deciding for yourself technique
@@ -128,6 +134,12 @@ nlu:
     - Losing everything technique
     - tell me about losing all technique
     - Losing everything
+    - losing everything
+- intent: techanxiety
+  examples: |
+    - What techniques do you know against anxiety?
+    - tell me about anxiety techniques
+    - anxiety techniques
 - intent: techdepression
   examples: |
     - techniques on depression
@@ -498,7 +510,6 @@ nlu:
     - It is not something I have considered.
     - No.
     - No. I do not want help buying carbon offsets
-    - No. [Business](travel_flight_class).
     - no i cant
     - No can you find out now
     - I'll keep the money I have earned.
@@ -515,6 +526,7 @@ nlu:
     - Can you advise me on how to boost my mood?
 - intent: badmood
   examples: |
+    - I feel terrible
     - Awful
     - I am very tired
     - I hate myself and everything
